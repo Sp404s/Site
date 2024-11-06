@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('images/Slide\ 16_9\ -\ 2.png') no-repeat 0 0/100%;
+    height: 100vh;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем блоки по горизонтали */
+    width: 100%;
+}
+
+.block {
+    display: flex;
+}
+
+.block1 {
+    width: 100%;
+    height: 750px; 
+}
+
+
+.block2 {
+    width: 50%;
+    height: 950px;
+    background: url('images/Box.png')no-repeat 0 0/100%;
+    margin-left: 0;
+}
+
+
+.block3 {
+    width: 50%;
+    height: 850px;
+    background: url('images/Box.png')no-repeat 0 0/100%;
+    margin-left: auto;
+}
+
+.block4 {
+    width: 50%;
+    height: 750px;
+    background: url('images/Box.png')no-repeat 0 0/100%;
+    margin-left: 0;
+}
+.text {
+    margin: 100px;
+}
